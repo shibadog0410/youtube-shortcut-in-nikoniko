@@ -1,0 +1,12 @@
+{
+    "name": "Youtube ShortCut in NicoNico",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "youtube shortcut-key in niconico",
+    "content_scripts": [{
+      "matches": ["https://www.nicovideo.jp/watch/*"],
+      "js": [
+        "content.js"
+      ]
+    }]
+  }
