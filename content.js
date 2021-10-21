@@ -14,9 +14,3 @@ document.body.addEventListener('click',
         }
     }
 );
-
-// let video = document.getElementsByClassName('VideoSymbolContainer-canvas')[0];
-// video.addEventListener('click', function(event){
-//     event.preventDefault();
-//     document.getElementsByClassName("PlayerPauseButton")[0].click();
-// });
