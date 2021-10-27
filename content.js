@@ -4,6 +4,9 @@ document.body.addEventListener('keydown',
             event.preventDefault();
             document.querySelectorAll(".PlayerPauseButton, .PlayerPlayButton")[0].click();
         }
+        if (event.key === '0' && event.code === "Digit0") {
+            document.querySelectorAll(".SeekToHeadButton")[0].click();
+        }
     }
 );
 
